@@ -1,21 +1,21 @@
 *As a* store administrator, 
-*I need* the ability to retrieve a specific product from the catalog, 
-*So that* I can view its details.
+*I need* the ability to update an existing product in the catalog, 
+*So that* I can make changes to its details (e.g., price, description, availability).
 
 *Acceptance Criteria:*
 
-*   Given I know the unique identifier of a product, 
-    When I request the product details, 
-    Then the system should return the complete details of the specified product.
-*   Given I request the details of a product that does not exist, 
-    When I make the request, 
-    Then the system should return an appropriate error message.
+*   Given I have the unique identifier of a product and valid updated information, 
+    When I submit the update request, 
+    Then the product details should be successfully updated in the catalog.
+*   Given I attempt to update a product with invalid data (e.g., negative price), 
+    When I submit the update request, 
+    Then the system should display an error message and prevent the update.
 
 *Labels:* 
 enhancement
 
 *Estimate:* 
-2 
+5 
 
 *Note:* 
 None
