@@ -1,0 +1,21 @@
+*As a* store administrator, 
+*I need* the ability to create a product in the catalog, 
+*So that* I can offer products for sale.
+
+*Acceptance Criteria:*
+
+*   Given I have valid product data (name, description, price, etc.), 
+    When I submit the product creation request, 
+    Then the product should be successfully created in the catalog.
+*   Given I submit a product creation request with missing required fields, 
+    When I submit the request, 
+    Then the system should display an error message indicating the missing fields. 
+
+*Labels:* 
+enhancement
+
+*Estimate:* 
+3 
+
+*Note:* 
+None
